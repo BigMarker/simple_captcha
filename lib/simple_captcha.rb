@@ -27,7 +27,9 @@ module SimpleCaptcha
       :image_size => '110x30',
       :text_color => 'black',
       :text_font => 'arial',
-      :text_size => 22
+      :text_size => 22,
+      :line_colors => ['#FF530D', '#0002CC', '#00CC02'],
+      :text_colors => ["#620063", "#350670", "#631200", "#635100", "#2D6300", "#064070", "#002E63"]      
   }
   def self.image_options
     @@image_options
