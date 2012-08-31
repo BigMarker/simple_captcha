@@ -5,13 +5,13 @@ require 'simple_captcha/view_helpers'
 #require 'simple_captcha/controller_validation'
 #require 'simple_captcha/model_validation'
 
-if Rails.version < '2.3.0'
+#if Rails.version < '2.3.0'
   $LOAD_PATH << File.expand_path('../app/controllers', File.dirname(__FILE__))
   $LOAD_PATH << File.expand_path('../app/models', File.dirname(__FILE__))
   #load_paths = ActiveSupport::Dependencies.load_paths
   #load_paths << File.expand_path('../app/controllers', File.dirname(__FILE__))
   #load_paths << File.expand_path('../app/models', File.dirname(__FILE__))
-end
+#end
 
 # NOTE: these are on the $LOAD_PATH but not autoloaded in Rails 2.3 :
 require 'simple_captcha_data' # _plugin_/app/models
