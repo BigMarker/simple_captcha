@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   
   s.files = Dir["{lib}/**/*"] + ["Rakefile", "README.rdoc"]
   s.test_files = Dir["{test}/**/*"]
-  s.extra_rdoc_files = ["README.rdoc"]
+  #s.extra_rdoc_files = ["README.rdoc"]
   s.require_paths = ["lib"]
 end
